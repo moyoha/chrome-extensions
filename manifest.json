@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "MTool",
+  "version": "1.0.0",
+  "description": "Chrome 插件工具",
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {}
+}

@@ -1,0 +1,56 @@
+#toc-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 300px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#toc-container h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+#toc-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#toc-list li {
+  margin: 5px 0;
+  line-height: 1.4;
+  color: #0366d6;
+  cursor: pointer;
+}
+
+#toc-list li:hover {
+  text-decoration: underline;
+}
+
+.toc-h2 {
+  padding-left: 0;
+}
+
+.toc-h3 {
+  padding-left: 15px;
+}
+
+.toc-h4 {
+  padding-left: 30px;
+}
+
+.toc-h5 {
+  padding-left: 45px;
+}
+
+.toc-h6 {
+  padding-left: 60px;
+}
