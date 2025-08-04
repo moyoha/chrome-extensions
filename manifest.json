@@ -11,10 +11,14 @@
   },
   "permissions": [
     "scripting",
-    "activeTab"
+    "activeTab",
+    "sidePanel"
   ],
   "background": {
-    "service_worker": "service-worker.js"
+    "service_worker": "service-worker.js",
+    "type": "module"
   },
-  "action": {}
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
